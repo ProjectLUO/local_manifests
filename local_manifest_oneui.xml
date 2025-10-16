@@ -2,7 +2,7 @@
 <manifest>
 	<!-- Remove previous repositories-->
 	 <remove-project path="packages/apps/Settings" />
-	 <remove-project path="packages/apps/Launcher3" />
+	 <remove-project path="packages/apps/Trebuchet" />
 
 	<!-- Custom vendor with OneUI icons overlay -->
 	<project path="vendor/custom" name="ProjectLUO/android_vendor_custom" revision="lineage-21.0" remote="github" />
@@ -11,7 +11,7 @@
 	<project path="packages/apps/Settings" name="ProjectLUO/android_packages_apps_Settings" revision="lineage-21.0" remote="github" />
 
 	<!-- Custom Launcher3 (Trebuchet) -->
-	<project path="packages/apps/Launcher3" name="ProjectLUO/android_packages_apps_Trebuchet" revision="lineage-21.0" remote="github" />
+	<project path="packages/apps/Trebuchet" name="ProjectLUO/android_packages_apps_Trebuchet" revision="lineage-21.0" remote="github" />
 
 	<!-- Xiaomi jason device tree -->
 	<project path="device/xiaomi/jason" name="ProjectLUO/android_device_xiaomi_jason" revision="lineage-21-4.4" remote="github" />
