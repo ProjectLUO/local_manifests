@@ -27,4 +27,7 @@
 
 	<!-- Xiaomi sdm660-common vendor blobs -->
 	<project path="vendor/xiaomi/sdm660-common" name="LineageOS-jason/proprietary_vendor_xiaomi_sdm660-common" revision="lineage-21-4.4" remote="github" />
+
+	<!-- sync hardware/xiaomi -->
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21.0" remote="github"/>
 </manifest>
