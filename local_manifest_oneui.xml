@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- Remove previous repositories-->
+	 <remove-project path="packages/apps/Settings" />
+	 <remove-project path="packages/apps/Launcher3" />
+
 	<!-- Custom vendor with OneUI icons overlay -->
-	<project path="vendor/custom" name="ProjectLUO/android_vendor_custom" revision="lineage-21.0" remote="git-ssh" />
+	<project path="vendor/custom" name="ProjectLUO/android_vendor_custom" revision="lineage-21.0" remote="github" />
 
 	<!-- Custom Settings app -->
-	<project path="packages/apps/Settings" name="ProjectLUO/android_packages_apps_Settings" revision="lineage-21.0" remote="git-ssh" />
+	<project path="packages/apps/Settings" name="ProjectLUO/android_packages_apps_Settings" revision="lineage-21.0" remote="github" />
 
 	<!-- Custom Launcher3 (Trebuchet) -->
-	<project path="packages/apps/Launcher3" name="ProjectLUO/android_packages_apps_Trebuchet" revision="lineage-21.0" remote="git-ssh" />
+	<project path="packages/apps/Launcher3" name="ProjectLUO/android_packages_apps_Trebuchet" revision="lineage-21.0" remote="github" />
 
 	<!-- Xiaomi jason device tree -->
-	<project path="device/xiaomi/jason" name="ProjectLUO/android_device_xiaomi_jason" revision="lineage-21-4.4" remote="git-ssh" />
+	<project path="device/xiaomi/jason" name="ProjectLUO/android_device_xiaomi_jason" revision="lineage-21-4.4" remote="github" />
 
 	<!-- Xiaomi sdm660-common device tree -->
-	<project path="device/xiaomi/sdm660-common" name="ProjectLUO/android_device_xiaomi_sdm660-common" revision="lineage-21-4.4" remote="git-ssh" />
+	<project path="device/xiaomi/sdm660-common" name="ProjectLUO/android_device_xiaomi_sdm660-common" revision="lineage-21-4.4" remote="github" />
 
 	<!-- Xiaomi kernel -->
-	<project path="kernel/xiaomi/sdm660" name="ProjectLUO/android_kernel_xiaomi_sdm660" revision="lineage-21.0" remote="git-ssh" />
+	<project path="kernel/xiaomi/sdm660" name="ProjectLUO/android_kernel_xiaomi_sdm660" revision="lineage-21.0" remote="github" />
 
 	<!-- Xiaomi jason vendor blobs -->
 	<project path="vendor/xiaomi/jason" name="LineageOS-jason/proprietary_vendor_xiaomi_jason" revision="lineage-21-4.4" remote="github" />
