@@ -10,7 +10,7 @@
 	<remove-project path="vendor/lineage" />
 
 	<!-- Track our build/bazel -->
-	<project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
+	<project path="build/bazel" name="ProjectLUO/android_build_bazel" groups="pdk" revision="lineage-21.0" remote="github" >
     	<linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     	<linkfile src="bazel.BUILD" dest="BUILD" />
   	</project>
