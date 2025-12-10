@@ -6,6 +6,7 @@
 	<!-- Remove previous repositories-->
 	<remove-project path="packages/apps/Settings" />
 	<remove-project path="packages/apps/Trebuchet" />
+	<remove-project path="vendor/lineage" />
 
 	<!-- Custom vendor with OneUI icons overlay -->
 	<project path="vendor/custom" name="ProjectLUO/android_vendor_custom" revision="lineage-21.0" remote="github" />
@@ -35,5 +36,11 @@
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="github"/>
 
 	<!-- sync MindTheGapps -->
-	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="vic" remote="gitlab"/>
+	<!-- project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="vic" remote="gitlab"/ -->
+
+	<!-- Custom lineage vendor -->
+	<project path="vendor/lineage" name="ProjectLUO/android_vendor_lineage" revision="lineage-21.0" remote="github" />
+	
+	<!-- Track partner GMS -->
+	<project path="vendor/partner_gms" name="techyminati/vendor_partner-gms" revision="udc-debloat" remote="gitlab" />
 </manifest>
