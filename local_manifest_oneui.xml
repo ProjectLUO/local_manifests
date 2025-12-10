@@ -4,9 +4,16 @@
 		fetch="https://gitlab.com/" />
 
 	<!-- Remove previous repositories-->
+	<remove-project path="build/bazel" />
 	<remove-project path="packages/apps/Settings" />
 	<remove-project path="packages/apps/Trebuchet" />
 	<remove-project path="vendor/lineage" />
+
+	<!-- Track our build/bazel -->
+	<project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
+    	<linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    	<linkfile src="bazel.BUILD" dest="BUILD" />
+  	</project>
 
 	<!-- Custom vendor with OneUI icons overlay -->
 	<project path="vendor/custom" name="ProjectLUO/android_vendor_custom" revision="lineage-21.0" remote="github" />
