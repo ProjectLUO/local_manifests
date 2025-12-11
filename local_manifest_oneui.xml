@@ -4,8 +4,8 @@
 		fetch="https://gitlab.com/" />
 
 	<!-- Remove previous repositories-->
+	<remove-project path="build/make" />
 	<remove-project path="build/bazel" />
-	<remove-project path="build" />
 	<remove-project path="packages/apps/Settings" />
 	<remove-project path="packages/apps/Trebuchet" />
 	<remove-project path="vendor/lineage" />
